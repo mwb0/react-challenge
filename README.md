@@ -2,6 +2,8 @@
 
 Welcome to the React Challenge application! This project is designed to demonstrate a React-based system, fully equipped to run in both development and production environments using Docker. For a live demo, visit our GitHub Pages site:
 
+🌐 [React Challenge Live Demo](https://mwb0.github.io/react-challenge)
+![preview](src/assets/preview.png)
 ## System Specifications
 
 This application is built with React, a powerful JavaScript library for building user interfaces. It supports running in two different environments: development and production, with easy deployment using Docker Compose.
