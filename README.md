@@ -2,8 +2,6 @@
 
 Welcome to the React Challenge application! This project is designed to demonstrate a React-based system, fully equipped to run in both development and production environments using Docker. For a live demo, visit our GitHub Pages site:
 
-🌐 [React Challenge Live Demo](https://matheusz2.github.io/react-challenge)
-
 ## System Specifications
 
 This application is built with React, a powerful JavaScript library for building user interfaces. It supports running in two different environments: development and production, with easy deployment using Docker Compose.
@@ -11,12 +9,12 @@ This application is built with React, a powerful JavaScript library for building
 ### Development Environment
 
 - **Port:** The development environment runs on port 3000.
-- **Environment Variable:** `REACT_APP_ENVIRONMENT=development` to signify the development mode.
+- **Environment Variable:** `REACT_APP_ENVIRONMENT=dev` to signify the development mode.
 
 ### Production Environment
 
 - **Port:** The production environment is set up to run on port 80, making it readily accessible.
-- **Environment Variable:** `REACT_APP_ENVIRONMENT=production` for production mode.
+- **Environment Variable:** `REACT_APP_ENVIRONMENT=prod` for production mode.
 
 ## Running the Application
 
@@ -45,7 +43,7 @@ To run the application in a Docker container for development:
    
 > docker-compose up --build
 
-This utilizes `docker-compose.yml` and `docker-compose.override.yml` for setting up the development environment.
+This utilizes `docker-compose.yml` for setting up the development environment.
 
 #### Production
 
